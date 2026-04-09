@@ -24,7 +24,7 @@ export const FooterText = () => {
     <Link
       color='inherit'
       underline='none'
-      href='https://github.com/sponsors/JoHoop'
+      href='https://github.com/sponsors/foolish-bandit'
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}
