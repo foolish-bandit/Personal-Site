@@ -1,0 +1,3 @@
+# Cloudflare Pages configuration
+# Ensures Pages deploys the Create React App output directory.
+pages_build_output_dir = "build"
