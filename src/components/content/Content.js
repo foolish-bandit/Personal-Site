@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Typography, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "./TextDecrypt";
-import { FirstName } from "../../utils/getName";
+import { FirstName, LastName } from "../../utils/getName";
 import { useLanguage } from "../../context/LanguageContext";
 import translations from "../../settings/translations";
 import { useDencrypt } from "use-dencrypt-effect";
@@ -58,7 +58,7 @@ export const Content = () => {
     return (
         <Container component="main" className={`${classes.main}`} maxWidth="sm">
             <Typography variant="h2" component="h1" gutterBottom>
-                <TextDecrypt text={`${t.hero.greeting} ${FirstName}`} />
+                <TextDecrypt text={`${t.hero.greeting} ${FirstName} ${LastName}`} />
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
                 <TextDecrypt text={t.hero.job} />

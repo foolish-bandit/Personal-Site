@@ -3,11 +3,11 @@ const translations = {
         // Hero Section
         hero: {
             greeting: "Hey, I'm",
-            job: "Founder | JD/MBA Candidate",
+            job: "Technologist | JD/MBA Candidate",
             location: "based in San Diego, California.",
-            school: "University of San Diego",
+            school: "AI, regulation, and emerging systems",
             schoolFull: "",
-            at: "at"
+            at: "Exploring the intersection of"
         },
         
         // About Section
