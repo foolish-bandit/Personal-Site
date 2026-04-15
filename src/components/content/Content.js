@@ -3,7 +3,6 @@ import { Typography, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "./TextDecrypt";
 import { FirstName, LastName } from "../../utils/getName";
-import { useLanguage } from "../../context/LanguageContext";
 import translations from "../../settings/translations";
 import { useDencrypt } from "use-dencrypt-effect";
 
@@ -52,8 +51,7 @@ const InlineDecrypt = ({ text, className }) => {
 
 export const Content = () => {
     const classes = useStyles();
-    const { language } = useLanguage();
-    const t = translations[language];
+    const t = translations;
 
     return (
         <Container component="main" className={`${classes.main}`} maxWidth="sm">
