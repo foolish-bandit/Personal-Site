@@ -90,3 +90,12 @@ To run locally (not sure why anyone would but just in case:
 ```bash
 npm install
 npm run dev
+## License
+
+---
+
+MIT
+
+---
+
+Built by [Zack Brenner](https://github.com/foolish-bandit)
