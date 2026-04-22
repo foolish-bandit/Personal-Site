@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo.png" style="max-width:100%; height:auto;" />
+  <img src="public/personalsite-readme.png" style="max-width:100%; height:auto;" />
 </p>
 
 # Zachary (Zack) Brenner
