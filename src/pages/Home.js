@@ -39,7 +39,7 @@ const DATA = {
 
 const ACCENT = '#C8502E';
 const HERO_MODE = 'orb';
-const PORTRAIT_SRC = (process.env.PUBLIC_URL || '') + '/TR.jpg';
+const PORTRAIT_SRC = (process.env.PUBLIC_URL || '') + '/headshot.jpg';
 
 const CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%&*';
 function DecryptText({ text, trigger, delay = 0, className, style }) {
